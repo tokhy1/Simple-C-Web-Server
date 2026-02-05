@@ -17,7 +17,7 @@ int main()
     struct sockaddr_in address;
     int address_len = sizeof(address);
 
-    // Application-level buffer (NOT Send/Receive kernel buffer)
+    // Initialize Application-level buffer (NOT Send/Receive kernel buffer)
     char buffer[APP_MAX_BUFFER] = {0};
 
     // Create socket (kernel object)
@@ -47,7 +47,7 @@ int main()
         exit(EXIT_FAILURE);
     }
 
-    // 4. Server loop
+    // Server loop
     while (1)
     {
         printf("Waiting for connection...\n");
