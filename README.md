@@ -1,6 +1,6 @@
 # Simple TCP Web Server in C
 
-This repository contains a minimal HTTP web server written in **C** using **POSIX sockets**.  
+This repository contains a minimal HTTP web server written in **C** using **POSIX/Winsock sockets**.  
 The goal of this project is **educational**, not production readiness.
 
 It is designed to demonstrate how web servers work **under the hood**, without frameworks, abstractions, or libraries hiding the details.
